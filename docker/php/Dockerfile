@@ -17,7 +17,6 @@ RUN apt-get update \
   && docker-php-ext-install pdo_mysql \
   && apt-get install -y git zip unzip \
   && apt-get install -y nodejs \
-  && apt-get install -y vim \
   && apt-get install -y sudo
 
 # ユーザ作成
