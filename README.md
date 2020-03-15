@@ -1,4 +1,4 @@
-# docker-laravel6
+# docker-lemp1
 
 ## 起動手順
 1. phpコンテナ内のuidをhost側のuidに合わせる
