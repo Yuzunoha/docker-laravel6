@@ -28,8 +28,8 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOSTS=mysql
-      - PMA_USER=docker_db_user
-      - PMA_PASSWORD=docker_db_user_pass
+      - PMA_USER=root
+      - PMA_PASSWORD=root
     ports:
       - "10040:80"
     volumes:
