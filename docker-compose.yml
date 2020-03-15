@@ -10,6 +10,7 @@ services:
   php:
     build: ./docker/php
     volumes:
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini 
       - ./html:/var/www/html
   mysql:
     image: mysql
